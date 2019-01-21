@@ -9,13 +9,11 @@
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:id="@+id/txtD"
-        android:text="Hello World!!"
-        android:textSize="32sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="101dp"
-        android:layout_marginTop="81dp" />
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Hello World!!"
+        android:textSize="32sp" />
 
 </FrameLayout>
